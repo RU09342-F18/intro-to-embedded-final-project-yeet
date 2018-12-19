@@ -1,1 +1,2 @@
+Stacker  is  a  common  game  in  arcades  and  theme  parks.   Players  attempt  tostack  rows  of  blocks  on  top  of  each  other  in  hopes  of  winning  big  prizes.   Ifthe player fails to stack the blocks, the game is lost and they have to restart.  This concept was deemed ideal to create on the MSP430G2553.  Utilizing serial communication,  the MSP430 controlled a matrix of LEDs with shift registers.
 

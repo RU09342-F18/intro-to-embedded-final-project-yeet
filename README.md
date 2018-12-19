@@ -5,5 +5,8 @@ The goal of Stacker is to align rows of moving blocks on top of each other.  Byp
 # Connecting the board
 If using a breadboard, the project uses all the I/O pins of the MSP430G2553.  Pins 1.1 to 1.7 are used for the shift registers' inputs.  Each pin correlates to a row (i.e. Pin 1.1 is connected to the first shift register/first row).  Pins 2.1 to 2.7 are used for the shift registers' latches.  Pin 1.0 is a common clock that all registers share while pin 2.0 is the button's input.
 
+# Powering the board
+In order to supply the MSP430G2 with enough power, 2 AAA batteries are used.  These output 1.5V each and are placed in serial.  This results in 3V total.
+
 # Adjusting the game settings
 In order to increase the game's difficulty, each level increases the stack shifting speed.  This is done in the software by decreasing the CCR0 value every level.
